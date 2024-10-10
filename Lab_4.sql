@@ -11,9 +11,6 @@ WHERE region IN ("S", "C");
 SELECT AVG(population) AS avg_population
 FROM cities
 WHERE region IN ("W");
-SELECT AVG(population) AS avg_population
-FROM cities
-WHERE region IN ("W");
 SELECT COUNT(name) AS number_of_cities
 FROM cities
 WHERE region IN ("E");
